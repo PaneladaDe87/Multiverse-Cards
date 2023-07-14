@@ -25,4 +25,6 @@ int main() {
     Card Card4("Arrows", 95, 0, "./assets/card4.png", 4, "Spell");
     Card Card5("Pelican", 100, 222, "./assets/card5.png", 5, "Troop");
     Card Card6("Cannon", 72, 111, "./assets/card6.png", 3, "Building");
+
+    return 0;
 }
