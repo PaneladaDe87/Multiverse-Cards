@@ -10,7 +10,7 @@ public:
     sf::Texture Texture;
     int Cost;
 
-    Card(const std::string& CardName, int CardDamage, int CardHealth, const std::string& CardTexture, int CardCost, std::string& CardType) {
+    Card(const std::string& CardName, int CardDamage, int CardHealth, const std::string& CardTexture, int CardCost, std::string& CardType) :
         Name(CardName), Damage(CardDamage), Health(CardHealth), Cost(CardCost) {
         if(!Texture.loadFromFile(CardTexture)) {
             std::cout << "Error Code 0001";
