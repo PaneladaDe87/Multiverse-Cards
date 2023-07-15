@@ -19,7 +19,7 @@ public:
 };
 
 int main() {
-    // Spells cant have hp :/
+    // Spells literally cant have hp cuz this shit have no life, AAAAA >:(
     Card Card1("Pirate", 63, 290, "./assets/card1.png", 4, "Trainer");
     Card Card2("Indians", 49, 78, "./assets/card2.png", 2, "Troop");
     Card Card3("Reaper", 47, 90, "./assets/card3.png", 3, "Troop");
