@@ -20,9 +20,9 @@ public:
 
 int main() {
     Card Card1("Pirate", 63, 290, "./assets/card1.png", 4, "Trainer");
-    Card Card2("Indians", 33, 91, "./assets/card2.png", 2, "Troop");
+    Card Card2("Indians", 49, 78, "./assets/card2.png", 2, "Troop");
     Card Card3("Reaper", 50, 98, "./assets/card3.png", 3, "Troop");
-    Card Card4("Arrows", 95, 0, "./assets/card4.png", 4, "Spell");
+    Card Card4("Arrows", 115, 0, "./assets/card4.png", 3, "Spell");
     Card Card5("Pelican", 92, 151, "./assets/card5.png", 5, "Troop");
     Card Card6("Cannon", 72, 111, "./assets/card6.png", 3, "Building");
 
