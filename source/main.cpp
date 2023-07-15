@@ -24,12 +24,14 @@ int shit() {
     Card Card2("Indians", 40, 83, "./assets/card2.png", 2, "Troop", false, false, 1.1);
     Card Card3("Reaper", 57, 97, "./assets/card3.png", 3, "Troop", false, false, 1);
     Card Card4("Arrows", 76, 0, "./assets/card4.png", 3, "Spell", false, false, 1.25);
-    Card Card5("Pelican", 76, 151, "./assets/card5.png", 5, "Troop", true, true, 2);
+    Card Card5("Pelican", 76, 120, "./assets/card5.png", 5, "Troop", true, true, 2);
     Card Card6("Cannon", 72, 111, "./assets/card6.png", 3, "Building", false, false, 1);
     Card Card7("R.O.B.O.T", 100, 190, "./assets/card7.png", 6, "Troop", true, true, 1.8);
     Card Card8("Fireball", 80, 0, "./assets/card8.png", 4, "Spell", false, false, 2.5);
     Card Card9("Thief", 66, 97, "./assets/card9.png", 3, "Troop", true, false, 1.2);
-    Card Card10("Viking", 60, 99, "./assets/card10.png", 4, "Troop", false, false, 1.4);
+    Card Card10("Normal Vikings", 59, 99, "./assets/card10.png", 3, "Troop", false, false, 1.4);
+    Card Card11("Elite Vikings", 76, 111, "./assets/card11.png", 6, "Troop", false, false, 1.7);
+    Card Card12("Rocket", 120, 0, "./assets/card12.png", 6, "Speel", false, false, 3);
 
     return 0;
 }
