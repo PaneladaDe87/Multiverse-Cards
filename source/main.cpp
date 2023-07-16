@@ -32,7 +32,10 @@ int shit() {
     Card Card10("Normal Vikings", 59, 99, "./assets/card10.png", 4, "Troop", false, false, 1.4, 4);
     Card Card11("Elite Vikings", 76, 111, "./assets/card11.png", 6, "Troop", false, false, 1.7, 2);
     Card Card12("Rocket", 120, 0, "./assets/card12.png", 6, "Speel", false, false, 3, 1);
-    Card Card13("goblins", 50, 50, "./assets/card13.png", 1, "Troop", false, false, 1, 4);
+    Card Card13("Goblins", 50, 50, "./assets/card13.png", 1, "Troop", false, false, 1, 4);
+    Card Card14("Sniper", 49, 98, "./assets/card14.png", 4, "Troop", false, false, 3, 1);
+    Card Card15("Exterminator" 90, 150, "./assets/card15.png" 6, "Troop", false, false, 1.7, 1);
+    Card Card16("Crusher", 100, 200, "./assets/card16.png", 7, "Building", false, false, 5, 1);
 
     return 0;
 }
