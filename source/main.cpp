@@ -27,7 +27,7 @@ int shit() {
     Card Card5("Pelican", 76, 120, "./assets/card5.png", 5, "Troop", true, true, 2, 1);
     Card Card6("Cannon", 72, 111, "./assets/card6.png", 3, "Building", false, false, 1, 1);
     Card Card7("R.O.B.O.T", 100, 190, "./assets/card7.png", 6, "Troop", true, true, 1.8, 1);
-    Card Card8("Fireball", 80, 0, "./assets/card8.png", 4, "Spell", false, false, 2.5, 1);
+    Card Card8("Fireball", 70, 0, "./assets/card8.png", 4, "Spell", false, false, 2.5, 1);
     Card Card9("Thief", 66, 97, "./assets/card9.png", 3, "Troop", true, false, 1.2, 1);
     Card Card10("Normal Vikings", 59, 99, "./assets/card10.png", 4, "Troop", false, false, 1.4, 4);
     Card Card11("Elite Vikings", 76, 111, "./assets/card11.png", 6, "Troop", false, false, 1.7, 2);
@@ -36,6 +36,7 @@ int shit() {
     Card Card14("Sniper", 49, 98, "./assets/card14.png", 4, "Troop", false, false, 3, 1);
     Card Card15("Exterminator" 90, 150, "./assets/card15.png" 6, "Troop", false, false, 1.7, 1);
     Card Card16("Crusher", 100, 200, "./assets/card16.png", 7, "Building", false, false, 5, 1);
+    Card Card17("Mighty Indian", 78, 180, "./assets/card17.png", 5, "Troop", false, false, 0.4, 1);
 
     return 0;
 }
