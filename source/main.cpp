@@ -21,7 +21,7 @@ public:
 int shit() {
     // Spells literally cant have hp cuz this shit is invulnerable, AAAAA >:(
     Card Card1("Pirate", 68, 333, "./assets/card1.png", 4, "Trainer", false, false, 0.9, 1);
-    Card Card2("Indians", 48, 90, "./assets/card2.png", 2, "Troop", false, false, 1.1, 2);
+    Card Card2("Indians", 48, 64, "./assets/card2.png", 2, "Troop", false, false, 1.1, 2);
     Card Card3("Reaper", 57, 97, "./assets/card3.png", 3, "Troop", false, false, 1, 1);
     Card Card4("Arrows", 76, 0, "./assets/card4.png", 3, "Spell", false, false, 1.25, 5);
     Card Card5("Pelican", 70, 120, "./assets/card5.png", 5, "Troop", true, true, 2, 1);
