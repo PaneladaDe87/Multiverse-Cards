@@ -1,4 +1,5 @@
-#include "SFML/Graphics.hpp"
+#include "./SFML/Graphics.hpp"
+#include "./SFML/Network.hpp"
 #include <iostream>
 #include <vector>
 
@@ -12,7 +13,7 @@ public:
     int ChargeDamage;
 
     Card(const std::string& CardName, int CardDamage, int CardHealth, const std::string& DamageType, const std::string& CardTexture, int CardCost, std::string& CardType, bool WinCondition, bool AttackOnlyBuildings, float AttackSpeed, int Amount, bool FlyingTroop, bool HaveShield, int CardChargeDamage) :
-        Name(CardName), Damage(CardDamage), Health(CardHealth), Cost(CardCost) {
+        Name(CardName), Damage(CardDamage), Health(CardHealth), Cost(CardCost) Texture(CardTexture) {
         if(!Texture.loadFromFile(CardTexture)) {
             std::cout << "Error Code 0001";
         }
@@ -53,7 +54,7 @@ void materializer() {
     int Timer = 0;
     int TimerLimit = 280;
     
-    while(Timer >= TimerLimit) {
+    while(Timer >= TimerLimit && Amount < 10) {
         Timer += 1;
         
         if(Timer >= TimerLimit) {
