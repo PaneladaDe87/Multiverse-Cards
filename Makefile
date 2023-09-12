@@ -3,7 +3,7 @@ EXECUTABLE = MultiverseCards
 CC = g++
 CFLAGS = -std=c++ -Wall -Wextra
 
-SFML_DIR = ./SFML
+SFML_DIR = source/SFML
 SFML_LIB = -lsfml-graphics -lsfml-window -lsfml-system
 
 SOURCE = source/main.cpp
