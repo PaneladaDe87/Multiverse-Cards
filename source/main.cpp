@@ -25,31 +25,33 @@ void card() {
     // Every card starts on level 1
     // AttackSpeed is calculed by seconds
     // For example, the reaper can attack once by second, the sniper take 3 seconds, etc...
-    Card Card1("Pirate", 94, 600, "One-By-One", "./assets/card1.png", 4, "Trainer", false, 0.9, 1, false, false, 0, 0);
+    Card Card1("Pirate", 97, 600, "One-By-One", "./assets/card1.png", 4, "Trainer", false, 0.9, 1, false, false, 0, 0);
     Card Card2("Indians", 60, 100, "One-By-One", "./assets/card2.png", 2, "Troop", false, 1.1, 2, false, true, 100, 0);
     Card Card3("Reaper", 80, 444, "One-By-One", "./assets/card3.png", 3, "Troop", false, 1, 1, false, false, 0, 0);
     Card Card4("Arrows", 100, 0, "Area", "./assets/card4.png", 3, "Spell", false, 1.25, 5, false, false, 0, 0);
     Card Card5("Pelican", 100, 500, "One-By-one", "./assets/card5.png", 5, "Troop", true, 2, 1, true, false, 0, 0);
     Card Card6("Cannon", 90, 460, "One-By-One", "./assets/card6.png", 3, "Building", false, 1, 1, false, false, 0, 0);
-    Card Card7("R.O.B.O.T", 195, 870, "One-By-One", "./assets/card7.png", 7, "Troop", true, 2, 1, false, false, 0, 0);
+    Card Card7("R.O.B.O.T", 190, 870, "One-By-One", "./assets/card7.png", 7, "Troop", true, 2, 1, false, false, 0, 0);
     Card Card8("Fireball", 128, 0, "Explode", "./assets/card8.png", 4, "Spell", false, 2.5, 1, false, false, 0, 0);
-    Card Card9("Thief", 78, 422, "On-Collide", "./assets/card9.png", 3, "Troop", false, 1.2, 1, false, false, 0, 173);
+    Card Card9("Thief", 79, 422, "Charge", "./assets/card9.png", 3, "Troop", false, 1.2, 1, false, false, 0, 173);
     Card Card10("Normal Vikings", 70, 230, "One-By-One", "./assets/card10.png", 4, "Troop", false, 1.4, 4, false, false, 0, 0);
     Card Card11("Elite Vikings", 100, 460, "One-By-One", "./assets/card11.png", 6, "Troop", false, 1.7, 2, false, false, 0, 0);
-    Card Card12("Rocket", 210, 0, "Explode", "./assets/card12.png", 5, "Spell", false, 3, 1, false, false, 0, 0);
+    Card Card12("Rocket", 212, 0, "Explode", "./assets/card12.png", 5, "Spell", false, 3, 1, false, false, 0, 0);
     Card Card13("Goblins", 90, 90, "One-By-One", "./assets/card13.png", 1, "Troop", false, 1, 4, false, false, 0, 0);
     Card Card14("Sniper", 99, 150, "One-By-One", "./assets/card14.png", 4, "Troop", false, 3, 1, false, false, 0, 0);
     Card Card15("Exterminator", 180, 810, "One-By-One", "./assets/card15.png", 7, "Troop", false, 1.8, 1, false, true, 222, 0);
-    Card Card16("Crusher", 212, 800, "Area", "./assets/card16.png", 6, "Building", false, 5, 1, false, false, 0, 0);
+    Card Card16("Crusher", 200, 800, "Area", "./assets/card16.png", 6, "Building", false, 5, 1, false, false, 0, 0);
     Card Card17("Mighty Indian", 40, 750, "Gradually", "./assets/card17.png", 6, "Troop", false, 1, 1, false, false, 0, 0);
-    Card Card18("Cachalot", 222, 0, "Smash", "./assets/card18.png", 6, "Spell", false, 1.5, 1, false, false, 0, 0);
+    Card Card18("Cachalot", 202, 0, "Smash", "./assets/card18.png", 6, "Spell", false, 1.5, 1, false, false, 0, 0);
     Card Card19("Combat Helicopter", 90, 330, "One-By-One", "./assets/card19.png", 4, false, 1.25, 1, true, false, 0, 0);
-    Card Card20("Trojan Horse", 96, 300, "On-Collide", "./assets/card20.png", 4 true, 0.3, 1, false, false, 0, 222);
+    Card Card20("Trojan Horse", 96, 300, "Charge", "./assets/card20.png", 4 true, 0.3, 1, false, false, 0, 222);
     Card Card21("Bomb Man", 111, 333, "Kamikaze", "./assets/card21.png", 5, true, 1.8, 1, false, false, 0, 0);
     Card Card22("Time Traveler", 84, 444, "One-By-One", "./assets/card22.png", 4, false, false, 1.3, 1, false, false, 0, 0);
     Card Card23("Tsunami", 100, 0, "Area", "./assets/card23.png", 5, false, 1.5, 1, false, false, 0, 0);
-    Card Card24("Titan", 160, 1000, "One-By-One", "./assets/card24.png", 8, true, 2.2, 1, false, false, 0, 0);
+    Card Card24("Titan", 160, 980, "One-By-One", "./assets/card24.png", 8, true, 2.2, 1, false, false, 0, 0);
     Card Card25("Mini Exterminator", 126, 390, "One-By-One", "./assets/card25.png", 4, false, 1.3, 1, false, false, 0, 0);
+    Card Card26("Eletron-Tower", 111, 540, "One-By-One", "./assets/card26.png", 5, false, 1.2, 1, false, false, 0, 0);
+    Card Card27("Goblins Army", 90, 90, "Charge", "./assets/card27.png", 3, false, 1, 12, false, false, 0, 120);
 }
 
 void materializer() {
@@ -67,14 +69,17 @@ void materializer() {
     }
 }
 
-void match {
-    int NormalTime = 180000;
-    int Prorrogation = 150000;
-    bool InitialDeck = true;
+class Match {
+public:
+    void start() {
+        int NormalTime = 180000;
+        int Prorrogation = 150000;
+        bool InitialDeck = true;
     
-    deck();
-    materializer();
-}
+        deck();
+        materializer();
+    }
+};
 
 std::vector<Card> CardDeck;
 
@@ -94,4 +99,4 @@ int deck() {
     return 0;
 }
 
-match();
+Match.start();
