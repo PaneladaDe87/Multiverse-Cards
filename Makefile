@@ -1,17 +1,14 @@
 EXECUTABLE = MultiverseCards
 
-CC = g++
-CFLAGS = -std=c++ -Wall -Wextra
+    CC = g++
+    CFLAGS = -std=c++ -Wall -Wextra
 
-SFML_DIR = source/SFML
-SFML_LIB = -lsfml-graphics -lsfml-window -lsfml-system
+    SFML_DIR = source/SFML
+    SFML_LIB = -lsfml-graphics -lsfml-window -lsfml-system
 
-SOURCE = source/main.cpp
+    SOURCE = source/main.cpp
 
-all: $(EXECUTABLE)
+    all: $(EXECUTABLE)
 
-$(EXECUTABLE): $(SOURCE)
-    $(CC) $(CFLAGS) -I$(SFML_DIR)/include $(SOURCE) -o $(EXECUTABLE) -L$(SFML_DIR)/lib $(SFML_LIB)
-    
-clean:
-    rm -f $(EXECUTABLE)
+    $(EXECUTABLE): $(SOURCE)
+        $(CC) $(CFLAGS) -I$(SFML_DIR)/include $(SOURCE) -o $(EXECUTABLE) -L$(SFML_DIR)/lib $(SFML_LIB)
